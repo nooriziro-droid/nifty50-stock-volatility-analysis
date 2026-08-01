@@ -11,6 +11,16 @@ This project analyses NIFTY 50 daily stock data from 2015–2025 to study return
 - Model time-varying volatility
 - Forecast future volatility
 
+## Dataset
+
+The NIFTY 50 historical data was obtained from **Yahoo Finance** using the `yfinance` Python library.
+
+- **Ticker:** `^NSEI`
+- **Period:** January 2015 – December 2025
+- **Source:** [Yahoo Finance – NIFTY 50](https://finance.yahoo.com/quote/%5ENSEI/)
+- **Data retrieval:** The dataset is downloaded directly within the Jupyter Notebook using `yfinance`.
+
+  
 ## Methods
 
 - Log Returns
